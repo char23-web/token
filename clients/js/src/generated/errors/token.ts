@@ -32,7 +32,7 @@ export const TOKEN_ERROR__ALREADY_IN_USE = 0x6; // 6
 export const TOKEN_ERROR__INVALID_NUMBER_OF_PROVIDED_SIGNERS = 0x7; // 7
 /** InvalidNumberOfRequiredSigners: Invalid number of required signers */
 export const TOKEN_ERROR__INVALID_NUMBER_OF_REQUIRED_SIGNERS = 0x8; // 8
-/** UninitializedState: State is unititialized */
+/** UninitializedState: State is uninitialized */
 export const TOKEN_ERROR__UNINITIALIZED_STATE = 0x9; // 9
 /** NativeNotSupported: Instruction does not support native tokens */
 export const TOKEN_ERROR__NATIVE_NOT_SUPPORTED = 0xa; // 10
@@ -99,7 +99,7 @@ if (process.env.NODE_ENV !== 'production') {
     [TOKEN_ERROR__NOT_RENT_EXEMPT]: `Lamport balance below rent-exempt threshold`,
     [TOKEN_ERROR__OVERFLOW]: `Operation overflowed`,
     [TOKEN_ERROR__OWNER_MISMATCH]: `Owner does not match`,
-    [TOKEN_ERROR__UNINITIALIZED_STATE]: `State is unititialized`,
+    [TOKEN_ERROR__UNINITIALIZED_STATE]: `State is uninitialized`,
   };
 }
 
