@@ -2163,8 +2163,8 @@
         "kind": "errorNode",
         "name": "uninitializedState",
         "code": 9,
-        "message": "State is unititialized",
-        "docs": ["UninitializedState: State is unititialized"]
+        "message": "State is uninitialized",
+        "docs": ["UninitializedState: State is uninitialized"]
       },
       {
         "kind": "errorNode",
